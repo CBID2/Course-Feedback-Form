@@ -6,3 +6,6 @@ body{
 #title{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+input[type="number"]{
+	width: 60px;
+}
