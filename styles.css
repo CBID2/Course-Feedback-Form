@@ -18,7 +18,7 @@ form{
 #description{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: bold;
-	font-size: medium;
+	font-size: 12px;
 }
 input[type="number"]{
 	width: 60px;
