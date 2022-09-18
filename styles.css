@@ -6,6 +6,10 @@ body{
 	background: linear-gradient(180deg, #F0F0E4, #68BDE1);
 	text-align: center;
 }
+form{
+	max-width: 400px;
+	margin: 40px auto;
+}
 #title{
 	font-family: 'Source Sans Pro', sans-serif;
 }
