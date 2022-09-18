@@ -13,15 +13,15 @@
 <p id="description"> Thank you for taking our course! We work diligently to improve our courses, so your feedback means alot to us!</p>
 </header>
 <form id="survey-form">
-<div class="contactinfo">
-<label for="name" id="name-label"> Your Name <input type="text" id="name" placeholder="e.g. Dante Smith" required></label>
-</div>
-<div class="contactinfo">
-<label for="email" id="email-label"> Your Email <input type="email" id="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required placeholder="e.g. 1234@gmail.com"></label>
-</div>
-<div class="form-group years">
-	<label for="years" id="number-label">Years of Experience <input type="number" placeholder="ex: 2" id="number" min="1" max="120"></label>
-</div>
+<fieldset>
+<legend id="name-label"> Your Name <input type="text" id="name" placeholder="e.g. Dante Smith" required></legend>
+</fieldset>
+<fieldset>
+<legend id="email-label"> Your Email <input type="email" id="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required placeholder="e.g. 1234@gmail.com"></legend>
+</fieldset>
+<fieldset>
+	<legend for="years" id="number-label">Years of Experience <input type="number" placeholder="ex: 2" id="number" min="1" max="120"></legend>
+</fieldset>
 
 <!-- Dropdown options -->
 <div class="courses-taken">
