@@ -20,28 +20,27 @@
 <legend id="email-label"> Your Email <input type="email" id="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required placeholder="e.g. 1234@gmail.com"></legend>
 </fieldset>
 <fieldset>
-	<legend for="years" id="number-label">Years of Experience <input type="number" placeholder="ex: 2" id="number" min="1" max="120"></legend>
+	<legend id="number-label">Years of Experience <input type="number" placeholder="ex: 2" id="number" min="1" max="120"></legend>
 </fieldset>
 
-<!-- Dropdown options -->
-<div class="courses-taken">
-	<label for="course-choice"> What course have you taken?</label>
+<fieldset>
+	<legend> What course have you taken?</legend>
 	<select name="courses" id="dropdown">
 		<option value="">--Please choose an option--</option>
 		<option value="google"> Google Apps for Educators</option>
 		<option value="coding">HTML for Instructional Designers I</option>
 	</select>
-</div>
-	
-<div class="learner-recommendations">
-	<label for="question"> Would you recommend others to take our courses? </label>
+</fieldset>
+
+<fieldset>
+	<legend> Would you recommend others to take our courses? </legend>
 	<br>
-	<label for="recommend-1"> <input type="radio" id="answer" name="answer" value="answer"/> No </label> 
+	<label for="question-1"> <input type="radio" id="answer" name="answer" value="answer"/> No </label> 
 	<br>
-<label for="recommend-2"> <input type="radio" id="answer" name="answer" value="answer"/> Yes</label>
-</div>
-	<div class=" futurecourse-offerings">
-	<label for="future-courses"> What do you want us to do more in the future?(Check all that apply)</label>
+<label for="question-2"> <input type="radio" id="answer" name="answer" value="answer"/> Yes</label>
+</fieldset>
+	<fieldset>
+	<legend> What do you want us to do more in the future?(Check all that apply)</legend>
 	<br>
 	<label for="offering-1"> <input type="checkbox" id="virtual conferences" name= "virtual conferences" value= "virtual conferences"/> Virtual conferences</label>
 	<br>
@@ -49,13 +48,13 @@
 	<br> 
 <label for="offering-3"> <input type="checkbox" id="internships" name="internships" value="internships"/> Internship opporturnities</label>	
 	<br>
-</div>
+	</fieldset>
 
-<div class="additional-comments">
-<label for="comment-question"> Have more ideas? Write them in the box below.</label>
+<fieldset">
+<legend> Have more ideas? Write them in the box below.</legend>
 <br>
 <textarea id="suggestions" name="suggestions" rows="12" cols="35"> </textarea>
-</div>
+</fieldset>
 <br>
 <button id="submit"> Submit</button>
 </form>
