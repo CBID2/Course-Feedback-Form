@@ -33,8 +33,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/CBID2/Survey-Form.git
+- Live Site URL: https://cbid2.github.io/Course-Feedback-Form/
 
 ## My process
 
