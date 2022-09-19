@@ -9,6 +9,7 @@
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
+    - [My inspiration](#my-inspiration)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
@@ -37,19 +38,14 @@
 - Live Site URL: https://cbid2.github.io/Course-Feedback-Form/
 
 ## My process
-
+### My inspiration
+<!-- TODO: Work on this section tomorrow. -->
 ### Built with
-
+<!-- TODO: Work on this section tomorrow. -->
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
