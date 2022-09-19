@@ -1,8 +1,5 @@
 # Survey Form
 
-**Project description
-This is a ...
-
 ## Table of contents
 
 - [Survey Form](#survey-form)
@@ -27,17 +24,12 @@ This is a ...
 
 - I had to build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![FireShot Capture 004 - Survey Form - 127 0 0 1](https://user-images.githubusercontent.com/105683440/191130143-adb6245a-f68a-457c-b682-65b8a4271dd4.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
