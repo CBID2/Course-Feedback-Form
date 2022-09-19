@@ -36,4 +36,9 @@ legend{
 	font-family: 'Sources San Pro', sans-serif;
 	font-weight: bold;
 }
+button{
+	background-color: grey;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+}
 
