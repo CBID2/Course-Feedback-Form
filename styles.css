@@ -25,6 +25,9 @@ input[type="number"]{
 }
 input[type="name"]{
 	width: 100px;
+	padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 input[type="checkbox"]{
 	align-items: center;
