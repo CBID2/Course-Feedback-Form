@@ -7,52 +7,46 @@
 	<link rel="stylesheet" href="styles.css">
 	<title>Survey Form</title>
 </head>
-<body>
+<div>
 <header>
 <h1 id="title">Course Feedback Form</h1>	
 <p id="description"> Thank you for taking our course! We work diligently to improve our courses, so your feedback means alot to us!</p>
 </header>
+<div class="container"></div>
 <form id="survey-form">
-<fieldset>
-<label id="name-label"> Your Name <input type="text" id="name" placeholder="e.g. Dante Smith" required></label>
-</fieldset>
-<fieldset>
-<label id="email-label"> Your Email <input type="email" id="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required placeholder="e.g. 1234@gmail.com"></label>
-</fieldset>
-<fieldset>
-	<label id="number-label">Years of Experience <input type="number" placeholder="ex: 2" id="number" min="1" max="120"></label>
-</fieldset>
 
-<fieldset>
-	<legend> What course have you taken?</legend>
+<label id="name-label"> Your Name <input type="text" id="name" placeholder="e.g. Dante Smith" required></label>
+<label id="email-label"> Your Email <input type="email" id="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required placeholder="e.g. 1234@gmail.com"></label>
+
+<label id="number-label">Years of Experience <input type="number" placeholder="ex: 2" id="number" min="1" max="120"></label>
+
+	<h2> What course have you taken?</h2>
 	<select name="courses" id="dropdown">
 		<option value="">--Please choose an option--</option>
 		<option value="google"> Google Apps for Educators</option>
 		<option value="coding">HTML for Instructional Designers I</option>
 	</select>
-</fieldset>
 
-<fieldset>
-	<legend> Would you recommend others to take our courses? </legend>
+
+	<h2> Would you recommend others to take our courses? </h2>
 	<label for="question-1"> <input type="radio" id="answer" name="answer" value="answer"/> No </label> 
 <label for="question-2"> <input type="radio" id="answer" name="answer" value="answer"/> Yes</label>
-</fieldset>
+
 	
-<fieldset>
-	<legend> What do you want us to do more in the future?(Check all that apply)</legend>
+	<h2> What do you want us to do more in the future?(Check all that apply)</h2>
 <label for="offering-1"> <input type="checkbox" id="contests" name= "contests" value= "contests"/> Contests</label>
 <label for="offering-2"> <input type="checkbox" id="podcast" name="podcast" value="podcast"/> Podcast</label>	
 <label for="offering-3"> <input type="checkbox" id="internships" name="internships" value="internships"/> Internships</label>	
 	</fieldset>
 
-<fieldset">
-<legend> Have more ideas? Write them in the box below.</legend>
+<h2> Have more ideas? Write them in the box below.</h2>
 <br>
 <textarea id="suggestions" name="suggestions" rows="12" cols="35"> </textarea>
 </fieldset>
 <br>
 <button id="submit"> Submit</button>
 </form>
+</div>
 <footer>
 	<p>Coded by <a class="profile-link" href="https://github.com/CBID2 "target="_blank"><em>Christine Belzie</em></a></p>
 </footer>
