@@ -24,29 +24,30 @@
 <div class="form-group">
 <label id="number-label">Years of Experience <input type="number" placeholder="ex: 2" id="number" min="1" max="120"></label>
 </div>
-	<h2> What course have you taken?</h2>
+<div class="form-group">
+	<h3> What course have you taken?</h3>
 	<select name="courses" id="dropdown">
 		<option value="">--Please choose an option--</option>
 		<option value="google"> Google Apps for Educators</option>
 		<option value="coding">HTML for Instructional Designers I</option>
 	</select>
-
-
-	<h2> Would you recommend others to take our courses? </h2>
+</div>
+<div class="form-group">
+	<h3> Would you recommend others to take our courses? </h3>
 	<label for="question-1"> <input type="radio" id="answer" name="answer" value="answer"/> No </label> 
 <label for="question-2"> <input type="radio" id="answer" name="answer" value="answer"/> Yes</label>
-
-	
-	<h2> What do you want us to do more in the future?(Check all that apply)</h2>
+</div>
+	<div class="form-group">
+	<h3> What do you want us to do more in the future?(Check all that apply)</h3>
 <label for="offering-1"> <input type="checkbox" id="contests" name= "contests" value= "contests"/> Contests</label>
 <label for="offering-2"> <input type="checkbox" id="podcast" name="podcast" value="podcast"/> Podcast</label>	
 <label for="offering-3"> <input type="checkbox" id="internships" name="internships" value="internships"/> Internships</label>	
-	</fieldset>
-
+</div>
+<div class="form-group">
 <h2> Have more ideas? Write them in the box below.</h2>
 <br>
 <textarea id="suggestions" name="suggestions" rows="12" cols="35"> </textarea>
-</fieldset>
+</div>
 <br>
 <button id="submit"> Submit</button>
 </form>
