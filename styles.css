@@ -74,7 +74,7 @@ button{
 	transition: all 200ms ease-in-out;
 }
 textarea{
-	width: auto;
+	width: 100%;
 }
 .button:hover{
 	color:rgba(0, 0, 0, 0.5);
