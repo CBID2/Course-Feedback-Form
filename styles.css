@@ -57,7 +57,7 @@ h3{
 }
 button{
 	background-color: grey;
-	border: none;
+	border-radius: 10px;
 	width: 100px;
 	color: black; 
 	padding: 15px, 32px;
