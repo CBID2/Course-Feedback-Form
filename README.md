@@ -39,9 +39,8 @@
 
 ## My process
 ### My inspiration
-<!-- TODO: Work on this section tomorrow. -->
+- As a person who is transitioning into the Instructional Design field, I decided to a create a survey form for a mock organization.   
 ### Built with
-<!-- TODO: Work on this section tomorrow. -->
 - Semantic HTML5 markup
 - CSS custom properties
 
@@ -49,50 +48,51 @@
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Through this project, I learned that it is ok to use div elements to create containers. On a personal note, I also found myself improving on using creative names for classes.
 
-To see how you can add code snippets, see below:
+### Code Snippets:
+HTML
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+email validation
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+<label id="email-label"> Email Address</label>
+<input type ="email" id="email-label" pattern ="[^ @]*@[^ @]*" placeholder="e.g. dantesmith@gmail.com">
+```
+
+CSS
+
+resize
+```
+textarea {
+  resize: none;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- CSS Flexbox
+- More semantic HTML tags
+- Relearn Javascript 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3 Schools: How to create a Contact Form](https://www.w3schools.com/howto/howto_css_contact_form.asp) - This source gave a me few ideas on how to create the form and structure its textbox. I highly recommend it if you are struggling with using the div element to create a form's structure. 
+- [FreeCodeCamp: CSS Button Style – Hover, Color, and Background](https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/) - I found this article when I was struggling to style my button. It gave me some ideas on how to make my button appealing. If you're still learning this concept or need a refresher, I highly recommend reading this article.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - [Christine Belzie](https://www.linkedin.com/in/christinebelzie)
+- GitHub - [@CBID2](https://github.com/CBID2)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I want to thank the Scrimba Community for giving me feedback on the rough versions of my solutions. If you are looking for a welcoming online coding community, I highly recommend joining them.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- [Scrimba](https://scrimba.com/)
