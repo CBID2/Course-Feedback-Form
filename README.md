@@ -18,7 +18,7 @@
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -99,4 +99,4 @@ I want to thank the Scrimba Community for giving me feedback on the rough versio
 - [Scrimba](https://scrimba.com/)
 
 
-- [Scrimba](https://scrimba.com/)
+
