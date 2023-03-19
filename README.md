@@ -36,7 +36,7 @@
 ### Links
 
 - Solution URL: https://github.com/CBID2/Survey-Form.git
-- Live Site URL: https://cbid2.github.io/Course-Feedback-Form/
+- Live Site URL:https://stellar-meringue-26087c.netlify.app/
 
 ## My process
 ### My inspiration
